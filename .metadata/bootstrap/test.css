@@ -1,0 +1,25 @@
+@media (min-width: 768px){
+  .new-inpu
+    width: 50%;
+
+}/* */
+.new-input{
+  width: 50%; */
+}
+/* li{
+  float: right; */
+}
+/* .navbar-toggler-icon{
+  float: right; */
+}
+/* body::before{
+  display: block; */
+  /* content: ""; */
+  /* height: 60px;
+} */
+
+body::before{
+  display: block;
+  content: "";
+  height: 60px;
+}
