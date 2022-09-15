@@ -1,0 +1,45 @@
+#btn{
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+#content{
+  margin-top: 70px;
+}
+ body{
+  background-color: black;
+} 
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+ul{
+  float: right;
+}
+li{
+  display: inline;
+  padding-right: 1rem;
+
+}
+/* h3{
+  position: relative;
+  top: 2.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+} */
+.nav-link:hover{
+  color: blue;
+}
+.text{
+  color: #fff;
+}
+.foot{
+  width:100px;
+  height: 100px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div id="main">
+      <fieldset id="first">
+        <label id="name-class">Name:<input class="name-class" type="name" name="name" placeholder="Enter your name" required></label>
+        <label id="email-id">Email:<input class="email-class" type="email" name="email" placeholder="Enter your email" required></label>
+        <label id="age-id">Age:<input class="number-class" type="number" min="18" max="120"></label>
+        <label>Select your Gender</label>
+        <select>
+          <option selected disabled>Select an option</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+        </select>
+      </fieldset>
+      <fieldset id="second">
+        <label id="info-label">How did you find us?</label>
+          <input class="radio" type="radio" name="radio" value="1"><span>From an Ad</span>
+          <input class="radio" type="radio" name="radio" value="2"><span>From a Website</span>
+          <input class="radio" type="radio" name="radio" value="3"><span>Someone Recommended</span>
+          <input class="radio" type="radio" name="radio" value="4"><span>Others</span>
+      </fieldset>
+      <fieldset id="third">
+        <label class="subheading">Verify your identity</label>
+        <label>Upload a photo<input type="file" name="photo"></label>
+      </fieldset>
+      <fieldset>
+        <label class="occupation">What's your occupation</label>
+        <select class="job">
+          <option selected disabled>Select an option</option>
+          <option>Self Employed</option>
+          <option>Employed</option>
+          <option>Student</option>
+          <option>Others</option>
+        </select>
+      </fieldset>
+      <fieldset id="fourth">
+      <label class="bio">Write a bio</label>
+        <textarea class="text"type="text" rows="3" cols="30" placeholder="write a bio"></textarea>
+       <a target="_blank" href="main"><input class="submit" type="submit"></a> 
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+}
+#main{
+  color: white;
+  font-weight: bolder;
+  display: block;
+  font-family: Tahoma;
+  position: absolute;
+  bottom: 60px;
+}
+.username{
+  font-size: 17px;
+}
+img{
+  width:270px;
+  height: 270px;
+  border-radius: 6px;
+
+}
+.light{
+  font-weight: lighter;
+}
+h2{
+  margin-left: 80px;
+}
+#profile-picture{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 80px;
+}
+a:hover{
+  color: beige;
+}
+a{
+  color: blue;
+}
+a:active{
+  color: blue;
+}

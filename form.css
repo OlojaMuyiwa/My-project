@@ -1,0 +1,84 @@
+fieldset{
+  border: none;
+}
+#main{
+  width: 60%;
+  height: 850px;
+  background-color: rgba(58, 58, 200, 1);
+  margin-left: 250px;
+  margin-top: 0;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: monospace;
+  overflow: hidden;
+}
+body{
+  background: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)
+  ),
+  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}label{
+  display: flex;
+  margin: 0.5rem 0;
+}
+input{
+  width: 450px;
+  background-color: transparent;
+  border-radius: 4px;
+  border-style: double;
+  border-color: rgba(58, 58, 158, 0.8);
+  color: black;
+
+}
+label{
+  text-align:left
+  height: 40px;
+}
+textarea{
+  margin-left: 230px;
+  margin-bottom: 20px;
+}
+.submit{
+  height: 50px;
+  margin-left: 230px;
+  width: 250px;
+  background-color: rgba(0,255,0);
+}
+.bio{
+  margin-left: 260px;
+}
+.checkbox{
+  margin-left: 200px;
+}
+.occupation{
+  margin-left: 230px;
+  position: absolute;
+  
+}
+select{
+  background-color: rgba(58, 58, 158, 0.8);
+  margin-left: 260px;
+  position: relative;
+  bottom: 35px;
+}
+#info-label{
+  position: relative;
+  bottom: 20px;
+  left: 200px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+span{
+  position: relative;
+  right:200px;
+}
+.subheading{
+  position: relative;
+  left: 200px;
+}
+.job{
+  position: relative;
+  top: 25px;
+}
