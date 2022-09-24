@@ -1,0 +1,53 @@
+body{
+  font-family: 'lato', sans-serif;
+  height: 100vh;
+  background: #0a0a23 url(https://images.unsplash.com/photo-1662714204422-04a355155c8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ4fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/ cover;
+  color: #fff;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+
+}
+h1,
+h2{
+  font-weight: 900;
+  margin: 0.4rem;
+}
+h1{
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 2rem;
+}
+@media (min-width: 1200px){
+  h1{
+    font-size: 5rem;
+  }
+
+}
+@media (man-width: 800px){
+  h1{
+    font-size: 3rem;
+  }
+  .container{
+    padding: 0 1rem;
+  }
+
+}
+@media (max-width: 500px){
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+
+}
+.txt-type{
+  color: #0a0a23;
+  font-family: monospace;
+}
